@@ -1,7 +1,7 @@
 <?php
 //print_r($_GET);
-$nome = $GET['nome'];
-$idade = $GET['idade'];
+$nome = $_GET['nome'];
+$idade = $_GET['idade'];
 
     echo '<h1>Dados do Usuário</h1>';
     echo '<hr>';
